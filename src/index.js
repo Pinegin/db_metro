@@ -3,6 +3,7 @@ import metro from './data.json'
 export default {
   getMetroLineByStationName(stationName) {
     const metroLine = metro.lines
+
     for (let l = 0; l < metroLine.length; l++) {
       const lineStations = metroLine[l].stations
       for (let s = 0; s < lineStations.length; s++) {
@@ -11,6 +12,8 @@ export default {
         }
       }
     }
+
+    return null
   },
 
   getMetroLineColorByStationName(station) {

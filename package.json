@@ -1,0 +1,15 @@
+{
+  "name": "db_merto",
+  "version": "1.0.0",
+  "description": "Database metro",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --hide-modules -p --progress"
+  },
+  "dependencies": {
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "webpack-cli": "^3.3.12"
+  }
+}

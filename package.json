@@ -6,10 +6,10 @@
     "build": "./node_modules/.bin/webpack --hide-modules -p --progress"
   },
   "dependencies": {
-    "webpack": "^4.44.2"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "prettier": "^2.1.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^5.0.1"
   }
 }
